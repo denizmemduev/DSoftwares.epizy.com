@@ -1,0 +1,174 @@
+@font-face {
+  src: url(./fonts/MontserratAlternates-Black.ttf);
+  font-family: MontserratAlternates-Black;
+}
+body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+/*----HEADER -------------*/
+.section4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 450px;
+  width: 100%;
+
+  box-sizing: border-box;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.534);
+}
+
+#s1 {
+  background-image: linear-gradient(
+    to right top,
+    #01255b,
+    #023a73,
+    #03508b,
+    #0666a2,
+    #0f7eb9
+  );
+}
+
+#s2 {
+  background-image: linear-gradient(
+    to right top,
+    #aaa309,
+    #b96129,
+    #923348,
+    #4b244b,
+    #07132a
+  );
+}
+#s3 {
+  background-image: linear-gradient(
+    to right top,
+    #29896c,
+    #339863,
+    #4ca654,
+    #6cb23d,
+    #92bc19
+  );
+
+  color: black;
+}
+
+.section4 h2 {
+  font-family: MontserratAlternates-Black;
+  color: rgba(255, 255, 255, 0.829);
+}
+.section4 h1 {
+  font-family: MontserratAlternates-Black;
+}
+
+#btnss {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.section4 button {
+  margin: 2px;
+  width: 120px;
+  height: 40px;
+  border: 0px;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  transition: 0.2s;
+}
+.butn {
+  border-radius: 20px 20px 0px 20px;
+}
+.butnn {
+  border-radius: 0px 20px 20px 20px;
+}
+
+.section4 button:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+#game {
+  text-shadow: 0px 13px 8px black;
+  font-size: 180%;
+  font-family: MontserratAlternates-Black;
+}
+
+/*-----------------------------*/
+
+#p {
+  font-size: 110%;
+  color: rgb(226, 226, 226);
+}
+#h1 {
+  color: rgb(255, 255, 255);
+}
+
+#logotext {
+  font-family: MontserratAlternates-Black;
+  font-size: 140%;
+}
+.head {
+  color: black;
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 60px;
+}
+.btn {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.432);
+  border: 2px solid white;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+/*------------Footer-------------------*/
+#section2 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+/*----------------------------------------*/
+#section3 {
+  box-sizing: border-box;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    to top,
+    #1b2f43,
+    #273b4f,
+    #33475c,
+    #3f5469,
+    #4c6176
+  );
+}
+
+.caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0px 20px 0px 20px;
+  box-sizing: border-box;
+  padding: 15px;
+  margin: 15px;
+  width: fit-content;
+  float: left;
+}
+.caption p,
+.caption h3 {
+  color: white;
+}

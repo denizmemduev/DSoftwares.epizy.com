@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  src: url(./fonts/MontserratAlternates-Black.ttf);
+  font-family: MontserratAlternates-Black;
+}
+html {
+  background-color: black;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  transition: 0.5s;
+  background-image: linear-gradient(
+    to left bottom,
+    #333333,
+    #333333,
+    #333333,
+    #333333,
+    #333333
+  );
+  background-size: cover;
+  background-repeat: repeat;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+
+  width: 100%;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  transition: 0.3s;
+  box-sizing: border-box;
+  padding: 15px;
+  height: 600px;
+}
+.h1 {
+  text-align: center;
+  color: white;
+
+  font-family: MontserratAlternates-Black;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.box2 {
+  display: none;
+
+  width: 100%;
+}
+
+.sgn {
+  color: rgb(143, 143, 143);
+  transition: 0.2s;
+  margin: 7px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.sgn:hover {
+  color: white;
+}
+
+.message {
+  color: white;
+}
