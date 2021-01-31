@@ -47,7 +47,7 @@ session_start();
         <ul class="nav navbar-nav">
           <li><a href="main.php">Home</a></li>
          
-          <li><a href="main.php#section3">Projects</a></li>
+          <li><a href="main.php#section3">Projectsssssss</a></li>
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> <?php echo "$_SESSION[valid_user] ";?>  <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#section41">Account Settings</a></li>
